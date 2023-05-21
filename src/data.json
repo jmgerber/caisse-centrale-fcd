@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "name": "Saucisse / Merguez",
+    "categorie": "salés",
+    "price": 3,
+    "image": "icone_saucisse.png" 
+  },
+  {
+    "id": 2,
+    "name": "Frites",
+    "categorie": "salés",
+    "price": 2,
+    "image": "icone_frites.png"
+  },
+  {
+    "id": 3,
+    "name": "Pizza / Flamm",
+    "categorie": "salés",
+    "price": 8,
+    "image": "icone_pizza.png"
+  },
+  {
+    "id": 4,
+    "name": "Jambon",
+    "categorie": "salés",
+    "price": 10,
+    "image": "icone_jambon.png"
+  },
+  {
+    "id": 5,
+    "name": "Schwenk",
+    "categorie": "salés",
+    "price": 10,
+    "image": "icone_schwenk.png"
+  },
+  {
+    "id": 6,
+    "name": "Café / Gâteau",
+    "categorie": "sucrés",
+    "price": 1,
+    "image": "icone_cafe_gateau.png"
+  },
+  {
+    "id": 7,
+    "name": "Popcorn",
+    "categorie": "sucrés",
+    "price": 3,
+    "image": "icone_popcorn.png"
+  },
+  {
+    "id": 8,
+    "name": "Crêpe",
+    "categorie": "sucrés",
+    "price": 1.50,
+    "image": "icone_crepe.png"
+  },
+  {
+    "id": 9,
+    "name": "Pression",
+    "categorie": "boisson",
+    "price": 2.50,
+    "image": "icone_pression.png"
+  },
+  {
+    "id": 10,
+    "name": "Bière bouteille",
+    "categorie": "boisson",
+    "price": 2.50,
+    "image": "icone_biere_bouteille.png"
+  },
+  {
+    "id": 11,
+    "name": "Eau",
+    "categorie": "boisson",
+    "price": 2,
+    "image": "icone_eau.png"
+  },
+  {
+    "id": 12,
+    "name": "Boisson en canette",
+    "categorie": "boisson",
+    "price": 2,
+    "image": "icone_boisson_soft.png"
+  },
+  {
+    "id": 13,
+    "name": "Despérados",
+    "categorie": "boisson",
+    "price": 3,
+    "image": "icone_desperados.png"
+  },
+  {
+    "id": 14,
+    "name": "Cocktail Lillet",
+    "categorie": "boisson",
+    "price": 5,
+    "image": "icone_lillet.png"
+  },
+  {
+    "id": 15,
+    "name": "Verre de vin",
+    "categorie": "boisson",
+    "price": 2,
+    "image": "icone_verre_vin.png"
+  },
+  {
+    "id": 16,
+    "name": "Bouteille de vin",
+    "categorie": "boisson",
+    "price": 10,
+    "image": "icone_bouteille_vin.png"
+  },
+  {
+    "id": 17,
+    "name": "Verre de Uby 4",
+    "categorie": "boisson",
+    "price": 2.50,
+    "image": "icone_verre_uby4.png"
+  },
+  {
+    "id": 18,
+    "name": "Bouteille de Uby 4",
+    "categorie": "boisson",
+    "price": 13,
+    "image": "icone_bouteille_uby4.png"
+  },
+  {
+    "id": 19,
+    "name": "Cola-Bier",
+    "categorie": "boisson",
+    "price": 2.50,
+    "image": "icone_colabier.png"
+  },
+  {
+    "id": 20,
+    "name": "Amer",
+    "categorie": "boisson",
+    "price": 3,
+    "image": "icone_amer.png"
+  },
+  {
+    "id": 21,
+    "name": "Consigne",
+    "categorie": "consigne",
+    "price": 1,
+    "image": "icone_consigne.png"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "name": "caisse-centrale",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "homepage": "http://jmgerber.github.io/caisse-centrale-fcd",
+  "dependencies": {
+    "prettier": "^2.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "gh-pages": "^5.0.0",
+    "vite": "^3.0.0"
+  }
+}
