@@ -147,9 +147,9 @@ Error generating stack: `+o.message+`
   align-items: center;
   & .numpad {
     display: grid;
-    grid-template-columns: repeat(3, clamp(46px, 4vw, 56px));
-    grid-template-rows: repeat(4, clamp(46px, 4vw, 56px));
-    grid-gap: 0.5vw;
+    grid-template-columns: repeat(3, clamp(44px, 3.8vw, 52px));
+    grid-template-rows: repeat(4, clamp(44px, 3.8vw, 52px));
+    grid-gap: 0.4vw;
   }
   & button {
     cursor: pointer;
