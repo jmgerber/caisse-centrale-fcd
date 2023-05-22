@@ -32,8 +32,8 @@ export const CardContainer = styled.article`
   height: 100%;
   padding: 4px;
   .item--image {
-    width: clamp(42px, 6vw + 1rem, 80px);
-    max-height: clamp(42px, 6vw + 1rem, 80px);
+    width: clamp(42px, 4vw + 1rem, 80px);
+    max-height: clamp(42px, 4vw + 1rem, 80px);
     flex: 1;
     object-fit: contain;
     margin-top: 8px;
