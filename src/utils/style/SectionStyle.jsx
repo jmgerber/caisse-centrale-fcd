@@ -53,4 +53,9 @@ export const CardContainer = styled.article`
     font-weight: 700;
     font-size: 1vw;
   }
+
+  &:active {
+    transform: scale(1.03);
+    border-color: #292727;
+  }
 `

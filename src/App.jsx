@@ -52,14 +52,12 @@ function App() {
       </section>
       <Drink data={drinkData} addToCart={addToCart} />
       <Consigne data={consigneData} addToCart={addToCart} />
-      <section className='BasketContainer'>
-        <Basket
-          data={cart}
-          addToCart={addToCart}
-          removeFromCart={removeFromCart}
-        />
-        <Change />
-      </section>
+      <Basket
+        data={cart}
+        setData={setCart}
+        addToCart={addToCart}
+        removeFromCart={removeFromCart}
+      />
     </AppContainer>
   )
 }
@@ -80,12 +78,5 @@ const AppContainer = styled.main`
     justify-content: space-between;
     margin-right: 2vw;
     width: 30%;
-  }
-  .BasketContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30%;
-    align-items: center;
   }
 `
