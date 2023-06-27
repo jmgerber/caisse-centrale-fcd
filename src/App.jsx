@@ -14,8 +14,8 @@ function App() {
   const sugarData = data.filter((data) => data.categorie === 'sucrés')
   const drinkData = data.filter((data) => data.categorie === 'boisson')
   const consigneData = data.filter((data) => data.categorie === 'consigne')
+
   const addToCart = (item) => {
-    console.log('ADD', item)
     const exist = cart.find((cartItem) => cartItem.id === item.id)
     if (exist) {
       setCart(
@@ -29,6 +29,7 @@ function App() {
       setCart([...cart, { ...item, quantity: 1 }])
     }
   }
+
   const removeFromCart = (item) => {
     console.log('REMOVE', item)
     const exist = cart.find((cartItem) => cartItem.id === item.id)
@@ -44,6 +45,7 @@ function App() {
       )
     }
   }
+
   return (
     <AppContainer>
       <section className='foodContainer'>
