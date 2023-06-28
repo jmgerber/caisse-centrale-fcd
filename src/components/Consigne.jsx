@@ -24,8 +24,6 @@ export default Consigne
 const ConsigneCard = styled(CardContainer)`
   background-color: ${colors.consigneColor}BF;
   border: 2px solid ${colors.consigneColor};
-  width: 10%;
-  height: 14.2%;
-  margin-inline: 1.1vw;
-  margin-top: 22px;
+  flex: 1;
+  height: auto;
 `

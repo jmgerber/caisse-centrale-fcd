@@ -80,7 +80,6 @@ const BasketChangeContainer = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 30%;
   align-items: center;
   & .buttonContainer {
     display: flex;

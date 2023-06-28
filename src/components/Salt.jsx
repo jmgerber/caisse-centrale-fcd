@@ -31,9 +31,8 @@ export default Salt
 /////  Style  /////
 
 const SaltContainer = styled(SectionContainer)`
-  grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   border: 4px solid ${colors.saltColor};
-  height: 50%;
 
   h1 {
     color: ${colors.saltColor};

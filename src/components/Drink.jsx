@@ -32,10 +32,8 @@ export default Drink
 /////  Style  /////
 
 const DrinkContainer = styled(SectionContainer)`
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   border: 4px solid ${colors.drinkColor};
-  height: 100%;
-  width: 30%;
 
   h1 {
     color: ${colors.drinkColor};

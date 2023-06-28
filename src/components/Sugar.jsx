@@ -32,9 +32,9 @@ export default Sugar
 /////  Style  /////
 
 const SugarContainer = styled(SectionContainer)`
-  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   border: 4px solid ${colors.sugarColor};
-  height: 35%;
+  flex: 3;
 
   h1 {
     color: ${colors.sugarColor};

@@ -48,18 +48,23 @@ function App() {
 
   return (
     <AppContainer>
-      <section className='foodContainer'>
+      <section className='food-drink-container'>
+        <Drink data={drinkData} addToCart={addToCart} />
         <Salt data={saltData} addToCart={addToCart} />
-        <Sugar data={sugarData} addToCart={addToCart} />
+        <div className='sugar-consigne-container'>
+          <Sugar data={sugarData} addToCart={addToCart} />
+          <Consigne data={consigneData} addToCart={addToCart} />
+        </div>
       </section>
-      <Drink data={drinkData} addToCart={addToCart} />
-      <Consigne data={consigneData} addToCart={addToCart} />
-      <Basket
-        data={cart}
-        setData={setCart}
-        addToCart={addToCart}
-        removeFromCart={removeFromCart}
-      />
+
+      <section className='basket-container'>
+        <Basket
+          data={cart}
+          setData={setCart}
+          addToCart={addToCart}
+          removeFromCart={removeFromCart}
+        />
+      </section>
     </AppContainer>
   )
 }
@@ -73,12 +78,21 @@ const AppContainer = styled.main`
   padding: 40px;
   width: 100vw;
   height: 100vh;
-
-  .foodContainer {
+  gap: 2vw;
+  & .food-drink-container {
     display: flex;
+    flex: 2;
     flex-direction: column;
-    justify-content: space-between;
-    margin-right: 2vw;
-    width: 30%;
+    gap: 2vw;
+  }
+
+  & .sugar-consigne-container {
+    display: flex;
+    gap: 1vw;
+  }
+
+  & .basket-container {
+    display: flex;
+    flex: 1;
   }
 `
